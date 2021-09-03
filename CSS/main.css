@@ -1,0 +1,23 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+h1,
+h2,
+h3 {
+    border-top: 3px dotted rgb(17, 77, 11);
+    
+}
+table {
+    border: 2px solid lightpink;
+    /* border-collapse: collapse; */
+    border-spacing: 10px;
+}
+table tbody td {
+    border-bottom: 1px solid lightpink;
+    border-right: 1px dotted gray;
+    margin:  ;
+}
+table img {
+    height: 10em;
+}
