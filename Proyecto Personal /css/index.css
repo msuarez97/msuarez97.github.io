@@ -1,0 +1,85 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(211, 176, 245);
+}
+
+h1 {
+color: rgb(32, 22, 61);
+font: size 50px;
+}
+
+ul {
+    list-style:none ;
+    padding: 10;
+  }
+  
+  ul li {
+    margin: 5px;
+    list-style-type: circle;
+    color: rgb(6, 1, 15);
+  }
+
+  ul > li > a {
+    text-decoration: none;
+    color: rgb(219, 203, 233);
+    display: flex;
+    /* grid-template-columns: 0.7fr 0.3fr auto;
+    align-items: center; */
+    /* border-image-width: 10em blue; */
+  }
+
+  :root {
+    --main-color: rgb(7, 0, 10);
+    --margin-base: 2em;
+    --border-type: solid;
+  }
+  
+  ul > li {
+    border-bottom: 1px var(--border-type) var(--main-color);
+    /* padding: 1em 0; */
+  }
+
+  .flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+  .parent {
+    display: flex;
+    height: 300px; 
+  }
+  
+  .child {
+    width: 100px;  
+    height: 100px; 
+    margin: auto; 
+  }
+
+  .pr {
+    font-weight: bold;
+  }
+
+  .columna2 { 
+    color: rgb(21, 3, 39);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font: size 20px;
+    /* background-color: rgb(241, 212, 173); */
+    margin:10px;
+    padding: 10px;
+  }
+
+  .p3 {
+    color: azure;
+  }
+
+  .bookcover {
+    border-width: 20px;
+    border-color: blue;
+    box-shadow: 5px;
+  }
+  /* .home_box {
+    position: relative;
+    width: 150px;
+    height: 100px;
+} */
